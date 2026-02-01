@@ -28,3 +28,9 @@ print("Complex:", complexNum, type(complexNum))
 # Multiple assignments
 x, y, z = 1, 2.5, "Hello"  # Multiple assignments
 print("Multiple assignments x,y,z:", x, y, z)
+
+
+# same object/value
+p = q = r = 10
+print("Same object/value p,q,r:", p, q, r)
+print("IDs of p,q,r:", id(p), id(q), id(r))  # IDs will be same
