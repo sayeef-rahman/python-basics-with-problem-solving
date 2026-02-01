@@ -24,3 +24,7 @@ print("NoneType nothing:", nothing, type(nothing))
 # complex assignment
 complexNum = 2 + 3j  # Complex variable
 print("Complex:", complexNum, type(complexNum))
+
+# Multiple assignments
+x, y, z = 1, 2.5, "Hello"  # Multiple assignments
+print("Multiple assignments x,y,z:", x, y, z)

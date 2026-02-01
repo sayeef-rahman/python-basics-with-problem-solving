@@ -1,18 +1,5 @@
 from typing import List, Dict, Optional
 
-# variables.py
-# Collection of Python variable examples and behaviors
-
-# 1. Basic assignments
-a = 10  # int
-b = 3.14  # float
-c = 1 + 2j  # complex
-name = "Alice"  # str
-is_ready = True  # bool
-nothing = None  # NoneType
-
-print("Basic:", a, b, c, name, is_ready, nothing)
-
 # 2. Multiple assignment and unpacking
 x, y, z = 1, 2, 3
 p = q = r = 0  # same object/value
