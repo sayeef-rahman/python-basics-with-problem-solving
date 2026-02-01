@@ -20,3 +20,7 @@ print("Boolean isValid & isInvalid:", isValid, isInvalid, type(isValid))
 # 5. NoneType Variable
 nothing = None  # NoneType variable
 print("NoneType nothing:", nothing, type(nothing))
+
+# complex assignment
+complexNum = 2 + 3j  # Complex variable
+print("Complex:", complexNum, type(complexNum))
