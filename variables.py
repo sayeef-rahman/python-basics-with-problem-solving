@@ -16,3 +16,7 @@ print("String :", myName, type(myName))
 isValid = True  # Boolean variable
 isInvalid = False
 print("Boolean isValid & isInvalid:", isValid, isInvalid, type(isValid))
+
+# 5. NoneType Variable
+nothing = None  # NoneType variable
+print("NoneType nothing:", nothing, type(nothing))
