@@ -11,3 +11,8 @@ print("Float b:", b, type(b))
 # 3. String variable
 myName = "Sayeef Rahman"  # String variable
 print("String :", myName, type(myName))
+
+# 4. Boolean variable
+isValid = True  # Boolean variable
+isInvalid = False
+print("Boolean isValid & isInvalid:", isValid, isInvalid, type(isValid))
