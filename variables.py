@@ -34,3 +34,8 @@ print("Multiple assignments x,y,z:", x, y, z)
 p = q = r = 10
 print("Same object/value p,q,r:", p, q, r)
 print("IDs of p,q,r:", id(p), id(q), id(r))  # IDs will be same
+
+# Tuple unpacking
+coordinate = (4, 5)
+x2, y2 = coordinate  # tuple unpacking
+print("Tuple unpacking x2,y2:", x2, y2)
