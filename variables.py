@@ -49,3 +49,8 @@ print("Set example:", setExample, type(setExample))
 dictExample = {"name": "Alice", "age": 30}
 dictExample["city"] = "New York"
 print("Dictionary example:", dictExample, type(dictExample))
+
+# 12. List: An ordered collection of elements which is mutable, like [1, 2, 3].
+listExample = [1, 2, 3]
+listExample.append(4)
+print("List example:", listExample, type(listExample))

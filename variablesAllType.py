@@ -13,7 +13,6 @@ print("Augmented:", count)
 # 5. Common built-in collection types
 lst = [1, 2, 3]  # list (mutable)
 frozen = frozenset([1, 2, 3])  # frozenset (immutable)
-dct = {"a": 1, "b": 2}  # dict (key->value)
 bts = b"bytes"  # bytes (immutable)
 ba = bytearray(b"bytes")  # bytearray (mutable)
 rng = range(5)  # range object
