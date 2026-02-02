@@ -1,14 +1,7 @@
 # stringAllExamples.py
 # Compact examples of common Python string operations with short comments.
 
-s = " Hello, World!  \n"  # basic string with whitespace and newline
-raw = r"C:\new\tests"  # raw string (backslashes not escaped)
-multi = """Line1
-Line2\tTabbed"""  # multiline with tab
-
-print(s)  # prints including newline
-print(raw)  # prints raw path
-print(multi)
+s = " Hello, World!  \n"  # sample string with whitespace and newline
 
 # basic properties
 print(len(s))  # length (counts all chars)

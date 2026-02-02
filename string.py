@@ -10,3 +10,5 @@ Line2\tTabbed"""
 print(string)  # prints including newline
 print(raw_string)  # prints raw path
 print(multi_line)
+
+print("Length of string:", len(string))  # length (counts all chars)
