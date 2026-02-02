@@ -1,15 +1,5 @@
 from typing import List, Dict, Optional
 
-# 3. Swapping values (no temp)
-x, y = y, x
-print("Swapped x,y:", x, y)
-
-# 4. Augmented assignment
-count = 5
-count += 2
-count *= 3
-print("Augmented:", count)
-
 # 5. Common built-in collection types
 frozen = frozenset([1, 2, 3])  # frozenset (immutable)
 bts = b"bytes"  # bytes (immutable)
@@ -18,36 +8,11 @@ rng = range(5)  # range object
 
 print(
     "Collections types:",
-    type(lst),
-    type(tpl),
-    type(st),
     type(frozen),
-    type(dct),
     type(bts),
     type(ba),
     type(rng),
 )
-
-# 6. Mutable vs immutable example (ids)
-immutable = 42
-print("id immutable before:", id(immutable))
-immutable += 1
-print("id immutable after:", id(immutable))  # different object
-
-mutable = [1, 2]
-print("id mutable before:", id(mutable))
-mutable.append(3)
-print("id mutable after:", id(mutable))  # same object
-
-# 7. Variable naming examples
-camelCaseVar = "camel"
-snake_case_var = "snake"
-_with_leading_underscore = "internal"
-__dunder__ = "magic"
-# Constants by convention
-PI = 3.14159
-
-print("Names:", camelCaseVar, snake_case_var, _with_leading_underscore, __dunder__, PI)
 
 # 8. Type hints (annotations)
 
@@ -136,16 +101,6 @@ print("list with immutable elements:", ll)
 
 # 15. Final summary print of types
 examples = {
-    "int": a,
-    "float": b,
-    "complex": c,
-    "str": name,
-    "bool": is_ready,
-    "none": nothing,
-    "list": lst,
-    "tuple": tpl,
-    "set": st,
-    "dict": dct,
     "bytes": bts,
 }
 for k, v in examples.items():

@@ -55,6 +55,19 @@ listExample = [1, 2, 3]
 listExample.append(4)
 print("List example:", listExample, type(listExample))
 
+
+# 13. Byte and Bytearray
+byteExample = b"Hello"  # bytes (immutable)
+byteArrayExample = bytearray(b"Hello")  # bytearray (mutable)
+byteArrayExample.append(33)  # ASCII for '!'
+print("Byte example:", byteExample, type(byteExample))
+print("Bytearray example:", byteArrayExample, type(byteArrayExample))
+
+# 14. Range object
+rangeExample = range(5)  # range object
+print("Range example:", list(rangeExample), type(rangeExample))
+
+
 # Swapping variables without temp variable
 x, y = 5, 10
 print("Before swapping x,y:", x, y)
