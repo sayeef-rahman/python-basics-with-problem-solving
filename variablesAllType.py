@@ -1,13 +1,5 @@
 from typing import List, Dict, Optional
 
-# 2. Multiple assignment and unpacking
-x, y, z = 1, 2, 3
-p = q = r = 0  # same object/value
-coords = (10, 20)
-x2, y2 = coords  # tuple unpacking
-
-print("Multiple/unpack:", x, y, z, p, q, r, x2, y2)
-
 # 3. Swapping values (no temp)
 x, y = y, x
 print("Swapped x,y:", x, y)

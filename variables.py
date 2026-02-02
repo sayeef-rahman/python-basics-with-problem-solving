@@ -39,3 +39,8 @@ print("IDs of p,q,r:", id(p), id(q), id(r))  # IDs will be same
 coordinate = (4, 5)
 x2, y2 = coordinate  # tuple unpacking
 print("Tuple unpacking x2,y2:", x2, y2)
+
+# Set: An unordered collection of unique elements, like {4, 2, 0}.
+setExample = {4, 2, 0}
+setExample.add(3)
+print("Set example:", setExample, type(setExample))
