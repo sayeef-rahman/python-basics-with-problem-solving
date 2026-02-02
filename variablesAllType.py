@@ -11,7 +11,6 @@ count *= 3
 print("Augmented:", count)
 
 # 5. Common built-in collection types
-lst = [1, 2, 3]  # list (mutable)
 frozen = frozenset([1, 2, 3])  # frozenset (immutable)
 bts = b"bytes"  # bytes (immutable)
 ba = bytearray(b"bytes")  # bytearray (mutable)

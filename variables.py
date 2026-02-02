@@ -54,3 +54,9 @@ print("Dictionary example:", dictExample, type(dictExample))
 listExample = [1, 2, 3]
 listExample.append(4)
 print("List example:", listExample, type(listExample))
+
+# Swapping variables without temp variable
+x, y = 5, 10
+print("Before swapping x,y:", x, y)
+x, y = y, x  # Swapping values
+print("After swapping x,y:", x, y)
