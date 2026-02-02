@@ -67,6 +67,9 @@ print("Bytearray example:", byteArrayExample, type(byteArrayExample))
 rangeExample = range(5)  # range object
 print("Range example:", list(rangeExample), type(rangeExample))
 
+# 15. Frozen set: An immutable version of set, like frozenset({1, 2, 3}).
+frozenSetExample = frozenset({1, 2, 3})
+print("Frozen set example:", frozenSetExample, type(frozenSetExample))
 
 # Swapping variables without temp variable
 x, y = 5, 10
