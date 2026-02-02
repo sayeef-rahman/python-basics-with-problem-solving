@@ -40,6 +40,15 @@ coordinate = (4, 5)
 x2, y2 = coordinate  # tuple unpacking
 print("Tuple unpacking x2,y2:", x2, y2)
 
+# Immutability demonstration with tuple of lists vs list of tuples
+tt = ([1, 2], [3, 4])
+tt[0].append(99)  # inner lists mutable
+print("tuple with mutable elements:", tt)
+
+ll = [(1, 2), (3, 4)]
+# ll[0].append(5) would error: tuple has no append
+print("list with immutable elements:", ll)
+
 # 10. Set: An unordered collection of unique elements which are mutable, like {4, 2, 0}.
 setExample = {4, 2, 0}
 setExample.add(3)
