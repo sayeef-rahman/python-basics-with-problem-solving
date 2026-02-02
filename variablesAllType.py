@@ -12,8 +12,6 @@ print("Augmented:", count)
 
 # 5. Common built-in collection types
 lst = [1, 2, 3]  # list (mutable)
-tpl = (1, 2, 3)  # tuple (immutable)
-st = {1, 2, 3}  # set (unordered, mutable)
 frozen = frozenset([1, 2, 3])  # frozenset (immutable)
 dct = {"a": 1, "b": 2}  # dict (key->value)
 bts = b"bytes"  # bytes (immutable)

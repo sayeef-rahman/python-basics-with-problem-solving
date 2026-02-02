@@ -21,26 +21,31 @@ print("Boolean isValid & isInvalid:", isValid, isInvalid, type(isValid))
 nothing = None  # NoneType variable
 print("NoneType nothing:", nothing, type(nothing))
 
-# complex assignment
+# 6. complex assignment
 complexNum = 2 + 3j  # Complex variable
 print("Complex:", complexNum, type(complexNum))
 
-# Multiple assignments
+# 7. Multiple assignments
 x, y, z = 1, 2.5, "Hello"  # Multiple assignments
 print("Multiple assignments x,y,z:", x, y, z)
 
 
-# same object/value
+# 8. same object/value
 p = q = r = 10
 print("Same object/value p,q,r:", p, q, r)
 print("IDs of p,q,r:", id(p), id(q), id(r))  # IDs will be same
 
-# Tuple unpacking
+# 9. Tuple unpacking. Tuples are immutable ordered collections, like (4, 5).
 coordinate = (4, 5)
 x2, y2 = coordinate  # tuple unpacking
 print("Tuple unpacking x2,y2:", x2, y2)
 
-# Set: An unordered collection of unique elements, like {4, 2, 0}.
+# 10. Set: An unordered collection of unique elements which are mutable, like {4, 2, 0}.
 setExample = {4, 2, 0}
 setExample.add(3)
 print("Set example:", setExample, type(setExample))
+
+# 11. Dictionary: A collection of key-value pairs which is mutable, like {"name": "Alice", "age": 30}.
+dictExample = {"name": "Alice", "age": 30}
+dictExample["city"] = "New York"
+print("Dictionary example:", dictExample, type(dictExample))
