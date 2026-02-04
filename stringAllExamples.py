@@ -1,16 +1,7 @@
 # stringAllExamples.py
 # Compact examples of common Python string operations with short comments.
 
-s = " Hello, World!  \n"  # sample string with whitespace and newline
-
-# basic properties
-print(len(s))  # length (counts all chars)
-print(s.strip())  # strip whitespace from both ends
-print(s.rstrip())  # strip right
-print(s.lstrip())  # strip left
-
-# immutability
-# s[0] = "h"                        # TypeError if uncommented
+s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
 # indexing and slicing
 print(s[1])  # index (second character)
