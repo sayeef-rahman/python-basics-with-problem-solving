@@ -3,15 +3,6 @@
 
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
-# indexing and slicing
-print(s[1])  # index (second character)
-print(s[-2])  # last-second char
-print(s[1:5])  # slice from index 1 to 4
-print(s[:5])  # start to 4
-print(s[7:])  # 7 to end
-print(s[::2])  # step slicing
-print(s[::-1])  # reversed string
-
 # search and membership
 print("World" in s)  # membership check
 print(s.find("World"))  # index of substring or -1

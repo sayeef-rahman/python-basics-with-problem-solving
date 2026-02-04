@@ -25,3 +25,11 @@ print("message[-1]:", message[-1])  # last character
 print("message[1:5]:", message[1:5])  # slice from index 1 to 4
 print("message[:5]:", message[:5])  # start to 4
 print("message[7:]:", message[7:])  # 7 to end
+
+# string searching and membership
+print("'World' in message:", "World" in message)  # membership check
+print("message.find('World'):", message.find("World"))  # index of substring or -1
+print("message.rfind('l'):", message.rfind("l"))  # last occurrence
+print("message.count('l'):", message.count("l"))  # count occurrences
+print("message.startswith(' '):", message.startswith(" "))  # startswith
+print("message.endswith('\\n'):", message.endswith("\n"))  # endswith (newline)
