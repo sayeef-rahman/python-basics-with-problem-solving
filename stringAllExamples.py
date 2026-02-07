@@ -70,9 +70,9 @@ b = s.encode("utf-8")  # str -> bytes
 print(b)
 print(b.decode("utf-8"))  # bytes -> str
 
-# ord/chr and codepoint info
-print(ord("A"), chr(65))  # codepoint functions
-print("é".encode("utf-8"))  # multibyte character
+# ord/chr and codePoint info
+print(ord("A"), chr(65))  # codePoint functions
+print("é".encode("utf-8"))  # multiByte character
 
 # safe repr/ascii
 print(repr(s))  # printable representation with escapes
