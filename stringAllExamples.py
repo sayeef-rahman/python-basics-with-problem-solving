@@ -3,23 +3,6 @@
 
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
-# search and membership
-print("World" in s)  # membership check
-print(s.find("World"))  # index of substring or -1
-print(s.rfind("l"))  # last occurrence
-# print(s.index("X"))                # would raise ValueError if not found
-print(s.count("l"))  # count occurrences
-print(s.startswith(" "))  # startswith
-print(s.endswith("\n"))  # endswith (newline)
-
-# case conversions
-print(s.upper())  # upper case
-print(s.lower())  # lower case
-print(s.capitalize())  # first char upper, rest lower
-print(s.title())  # title case
-print(s.swapcase())  # swap case
-print("ß".casefold())  # aggressive lowercasing for comparisons
-
 # tests
 print("abc".isalpha())  # only letters
 print("123".isdigit())  # only digits

@@ -33,3 +33,23 @@ print("message.rfind('l'):", message.rfind("l"))  # last occurrence
 print("message.count('l'):", message.count("l"))  # count occurrences
 print("message.startswith(' '):", message.startswith(" "))  # startswith
 print("message.endswith('\\n'):", message.endswith("\n"))  # endswith (newline)
+
+# case conversions
+print("message.upper():", message.upper())  # upper case
+print("message.lower():", message.lower())  # lower case
+print("message.capitalize():", message.capitalize())  # first char upper, rest lower
+print("message.title():", message.title())  # title case
+print("message.swapcase():", message.swapcase())  # swap case
+print("'ß'.casefold():", "ß".casefold())  # aggressive lowercasing for comparisons
+
+# string methods for checking content
+print("message.isalpha():", message.isalpha())  # only letters
+print("message.isdigit():", message.isdigit())  # only digits
+print("message.isalnum():", message.isalnum())  # alphanumeric
+print("message.isspace():", message.isspace())  # only whitespace
+print("message.islower():", message.islower())  # all lowercase
+print("message.isupper():", message.isupper())  # all uppercase
+print(
+    "message.isnumeric():", message.isnumeric()
+)  # numeric (includes digits and some other numeric chars)
+print("message.replace():", message.replace("World", "Python"))  # replace substring
