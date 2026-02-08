@@ -100,3 +100,9 @@ print("right".rjust(10, "."))
 # tabs and expanding
 tabbed = "1\t2\t345"
 print(tabbed.expandtabs(4))  # expand tabs to spaces
+
+
+# encoding and bytes
+b = message.encode("utf-8")  # str -> bytes
+print(b)
+print(b.decode("utf-8"))  # bytes -> str

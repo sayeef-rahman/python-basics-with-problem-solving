@@ -3,12 +3,6 @@
 
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
-
-# encoding and bytes
-b = s.encode("utf-8")  # str -> bytes
-print(b)
-print(b.decode("utf-8"))  # bytes -> str
-
 # ord/chr and codePoint info
 print(ord("A"), chr(65))  # codePoint functions
 print("é".encode("utf-8"))  # multiByte character
