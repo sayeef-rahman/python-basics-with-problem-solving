@@ -4,10 +4,6 @@
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
 
-# partitioning
-print("key=value".partition("="))  # (before, sep, after)
-print("a-b-c".rpartition("-"))  # right partition
-
 # replace and translation
 s2 = "apple banana apple"
 print(s2.replace("apple", "pear", 1))  # replace first only

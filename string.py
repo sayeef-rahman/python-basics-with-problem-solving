@@ -76,3 +76,8 @@ lines = "one\ntwo\r\nthree".splitlines()  # splitlines handles different newline
 print(lines)
 parts = ["a", "b", "c"]
 print("-".join(parts))  # join list into string
+
+
+# partitioning
+print("key=value".partition("="))  # (before, sep, after)
+print("a-b-c".rpartition("-"))  # right partition
