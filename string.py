@@ -1,6 +1,6 @@
 # All type of python string operation including some mostly used methods with examples
 
-message = " Hello, World!  \n"  # basic string with whitespace and newline
+message = " Hello World!  \n"  # basic string with whitespace and newline
 raw_string = r"C:\new\tests"  # raw string (backslashes not escaped)
 
 # multiline with tab. Use the opposite kind of quotes. That is, if your string contains single quotes, use double quotes to wrap the string, and vice versa.
@@ -53,3 +53,8 @@ print(
     "message.isnumeric():", message.isnumeric()
 )  # numeric (includes digits and some other numeric chars)
 print("message.replace():", message.replace("World", "Python"))  # replace substring
+print("message.split():", message.split())  # split on whitespace
+print("message.splitlines():", message.splitlines())  # split on lines
+print("message.join():", "-".join(["Hello", "World"]))  # join list into string
+print("message.startswith(' '):", message.startswith(" "))  # startswith
+print("message.endswith('\\n'):", message.endswith("\n"))  # endswith (newline)
