@@ -3,30 +3,6 @@
 
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
-# tests
-print("abc".isalpha())  # only letters
-print("123".isdigit())  # only digits
-print("123.4".isnumeric())  # numeric (False here)
-print("abc123".isalnum())  # alnum
-print("   ".isspace())  # whitespace only
-
-# formatting
-name = "Alice"
-age = 30
-print("Name: {}, Age: {}".format(name, age))  # str.format
-print(f"Name: {name}, Age: {age}")  # f-string (preferred)
-print("Number: {:06d}".format(42))  # zero pad
-print("{:.2f}".format(3.14159))  # float precision
-# print(f"{'left':<10}|{ 'center':=10 }|{ 'right':>10}")  # alignment
-
-# splitting and joining
-csv = "a,b,c,,d"
-print(csv.split(","))  # split into list
-print(csv.split(",", 2))  # maxsplit
-lines = "one\ntwo\r\nthree".splitlines()  # splitlines handles different newlines
-print(lines)
-parts = ["a", "b", "c"]
-print("-".join(parts))  # join list into string
 
 # partitioning
 print("key=value".partition("="))  # (before, sep, after)

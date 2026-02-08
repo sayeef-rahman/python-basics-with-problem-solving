@@ -58,3 +58,21 @@ print("message.splitlines():", message.splitlines())  # split on lines
 print("message.join():", "-".join(["Hello", "World"]))  # join list into string
 print("message.startswith(' '):", message.startswith(" "))  # startswith
 print("message.endswith('\\n'):", message.endswith("\n"))  # endswith (newline)
+
+# String Fromatting
+name = "Alice"
+age = 30
+print("Name: {}, Age: {}".format(name, age))  # str.format
+print(f"Name: {name}, Age: {age}")  # f-string (preferred)
+print("Number: {:06d}".format(42))  # zero pad
+print("{:.2f}".format(3.14159))  # float precision
+
+
+# splitting and joining
+csv = "a,b,c,,d"
+print(csv.split(","))  # split into list
+print(csv.split(",", 2))  # maxsplit
+lines = "one\ntwo\r\nthree".splitlines()  # splitlines handles different newlines
+print(lines)
+parts = ["a", "b", "c"]
+print("-".join(parts))  # join list into string
