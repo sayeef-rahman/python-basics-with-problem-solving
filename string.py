@@ -96,3 +96,7 @@ print(
 print("42".zfill(5))  # zero fill for numbers
 print("left".ljust(10, "-"))
 print("right".rjust(10, "."))
+
+# tabs and expanding
+tabbed = "1\t2\t345"
+print(tabbed.expandtabs(4))  # expand tabs to spaces
