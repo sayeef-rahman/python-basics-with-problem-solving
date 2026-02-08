@@ -4,10 +4,6 @@
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
 
-# tabs and expanding
-tabbed = "1\t2\t345"
-print(tabbed.expandtabs(4))  # expand tabs to spaces
-
 # encoding and bytes
 b = s.encode("utf-8")  # str -> bytes
 print(b)
