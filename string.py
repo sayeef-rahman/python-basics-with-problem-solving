@@ -106,3 +106,14 @@ print(tabbed.expandtabs(4))  # expand tabs to spaces
 b = message.encode("utf-8")  # str -> bytes
 print(b)
 print(b.decode("utf-8"))  # bytes -> str
+
+
+# iteration
+for i, ch in enumerate(message):
+    print(i, ch)
+
+# sorting characters
+print("x".join(sorted("cab")))  # sort characters
+
+# comparison
+print("apple" < "banana")  # lexicographical

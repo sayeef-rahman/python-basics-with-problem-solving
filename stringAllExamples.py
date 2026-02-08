@@ -1,25 +1,4 @@
-# stringAllExamples.py
-# Compact examples of common Python string operations with short comments.
-
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
-
-# ord/chr and codePoint info
-print(ord("A"), chr(65))  # codePoint functions
-print("é".encode("utf-8"))  # multiByte character
-
-# safe repr/ascii
-print(repr(s))  # printable representation with escapes
-print(ascii("café"))  # ascii escapes non-ascii
-
-# iteration
-for i, ch in enumerate("abc"):
-    print(i, ch)
-
-# sorting characters
-print("".join(sorted("cab")))  # sort characters
-
-# comparison
-print("apple" < "banana")  # lexicographical
 
 # useful utilities
 print("".isdecimal())  # False: empty string isn't decimal
