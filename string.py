@@ -88,3 +88,11 @@ s2 = "apple banana apple"
 print(s2.replace("apple", "pear", 1))  # replace first only
 trans = str.maketrans("ab", "AB", "n")  # map a->A, b->B, delete n
 print("banana".translate(trans))
+
+# alignment and padding
+print(
+    "hi".center(4, "*")
+)  # center with padding using max length of 4 and * as padding character
+print("42".zfill(5))  # zero fill for numbers
+print("left".ljust(10, "-"))
+print("right".rjust(10, "."))
