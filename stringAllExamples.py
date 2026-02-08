@@ -4,12 +4,6 @@
 s = " Hello, World!  \n"  # left sample string with whitespace and newline
 
 
-# replace and translation
-s2 = "apple banana apple"
-print(s2.replace("apple", "pear", 1))  # replace first only
-trans = str.maketrans("ab", "AB", "n")  # map a->A, b->B, delete n
-print("banana".translate(trans))
-
 # alignment and padding
 print("hi".center(10, "*"))
 print("42".zfill(5))  # zero fill for numbers

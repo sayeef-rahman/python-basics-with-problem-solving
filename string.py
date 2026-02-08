@@ -81,3 +81,10 @@ print("-".join(parts))  # join list into string
 # partitioning
 print("key=value".partition("="))  # (before, sep, after)
 print("a-b-c".rpartition("-"))  # right partition
+
+
+# replace and translation
+s2 = "apple banana apple"
+print(s2.replace("apple", "pear", 1))  # replace first only
+trans = str.maketrans("ab", "AB", "n")  # map a->A, b->B, delete n
+print("banana".translate(trans))
