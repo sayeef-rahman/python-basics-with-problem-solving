@@ -1,29 +1,7 @@
 import math
 
-# Number & Mathematical Operations in Python
-
-# ===== BASIC ARITHMETIC OPERATIONS =====
-print("=== BASIC ARITHMETIC OPERATIONS ===")
-
 a = 10
 b = 3
-
-print(f"Addition: {a} + {b} = {a + b}")
-print(f"Subtraction: {a} - {b} = {a - b}")
-print(f"Multiplication: {a} * {b} = {a * b}")
-print(f"Division: {a} / {b} = {a / b}")
-print(f"Floor Division: {a} // {b} = {a // b}")
-print(f"Modulus (Remainder): {a} % {b} = {a % b}")
-print(f"Exponentiation: {a} ** {b} = {a ** b}")
-
-# ===== INTEGER & FLOAT OPERATIONS =====
-print("\n=== INTEGER & FLOAT OPERATIONS ===")
-
-int_num = 15
-float_num = 3.5
-
-print(f"Int + Float: {int_num} + {float_num} = {int_num + float_num}")
-print(f"Type: {type(int_num + float_num)}")
 
 # ===== MATH MODULE =====
 print("\n=== MATH MODULE ===")
