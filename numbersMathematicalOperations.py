@@ -60,3 +60,13 @@ print(
     f"Absolute value of {negativeNumber}: abs({negativeNumber}) = {abs(negativeNumber)}"
 )
 print(f"Negative of {negativeNumber}: -{negativeNumber} = {-negativeNumber}")
+
+
+# Comparison operations
+print(f"Comparison operations:")
+print(f"{numberOne} == {numberTwo}:{numberOne == numberTwo}")
+print(f"{numberOne} != {numberTwo}: {numberOne != numberTwo}")
+print(f"{numberOne} < {numberTwo}: {numberOne < numberTwo}")
+print(f"{numberOne} > {numberTwo}: {numberOne > numberTwo}")
+print(f"{numberOne} <= {numberTwo}: {numberOne <= numberTwo}")
+print(f"{numberOne} >= {numberTwo}: {numberOne >= numberTwo}")
