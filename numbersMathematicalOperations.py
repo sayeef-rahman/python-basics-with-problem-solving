@@ -46,3 +46,10 @@ print(f"Min: min({numbers}) = {min(numbers)}")
 print(f"Max: max({numbers}) = {max(numbers)}")
 print(f"Length: len({numbers}) = {len(numbers)}")
 print(f"Average: {sum(numbers) / len(numbers)}")
+
+# Rounding examples
+num = 3.14159
+print(
+    f"Round to 2 decimals: round({num}, 2) = {round(num, 2)}"
+)  # rounding to 2 decimal places
+print(f"Round to nearest int: round({num}) = {round(num)}")

@@ -2,16 +2,7 @@ import math
 
 a = 10
 b = 3
-# ===== BUILT-IN FUNCTIONS =====
-print("\n=== BUILT-IN FUNCTIONS ===")
 
-numbers = [5, 2, 8, 1, 9]
-
-print(f"Sum: sum({numbers}) = {sum(numbers)}")
-print(f"Min: min({numbers}) = {min(numbers)}")
-print(f"Max: max({numbers}) = {max(numbers)}")
-print(f"Length: len({numbers}) = {len(numbers)}")
-print(f"Average: {sum(numbers) / len(numbers)}")
 
 # ===== ROUNDING =====
 print("\n=== ROUNDING ===")
