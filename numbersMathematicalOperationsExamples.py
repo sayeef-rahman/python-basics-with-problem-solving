@@ -3,19 +3,6 @@ import math
 a = 10
 b = 3
 
-# ===== MATH MODULE =====
-print("\n=== MATH MODULE ===")
-
-
-print(f"Square root: sqrt(16) = {math.sqrt(16)}")
-print(f"Power: pow(2, 5) = {math.pow(2, 5)}")
-print(f"Ceiling: ceil(4.3) = {math.ceil(4.3)}")
-print(f"Floor: floor(4.9) = {math.floor(4.9)}")
-print(f"Absolute: abs(-10) = {abs(-10)}")
-print(f"Pi: {math.pi}")
-print(f"e: {math.e}")
-print(f"Factorial: factorial(5) = {math.factorial(5)}")
-
 # ===== NUMBER TYPE CONVERSION =====
 print("\n=== NUMBER TYPE CONVERSION ===")
 

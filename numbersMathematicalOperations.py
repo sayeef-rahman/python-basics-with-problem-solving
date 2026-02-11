@@ -29,3 +29,12 @@ print(f"Absolute: abs(-10) = {abs(-10)}")
 print(f"Pi: {math.pi}")
 print(f"e: {math.e}")
 print(f"Factorial: factorial(5) = {math.factorial(5)}")
+
+
+# Type conversion examples
+str_num = "42"
+float_str = "3.14"
+print(f"String to Int: int('42') = {int(str_num)}")
+print(f"String to Float: float('3.14') = {float(float_str)}")
+print(f"Int to Float: float(10) = {float(10)}")
+print(f"Float to Int: int(9.9) = {int(9.9)}")
