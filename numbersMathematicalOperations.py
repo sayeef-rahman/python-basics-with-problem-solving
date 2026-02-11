@@ -38,3 +38,11 @@ print(f"String to Int: int('42') = {int(str_num)}")
 print(f"String to Float: float('3.14') = {float(float_str)}")
 print(f"Int to Float: float(10) = {float(10)}")
 print(f"Float to Int: int(9.9) = {int(9.9)}")
+
+# Built-in functions examples
+numbers = [5, 2, 8, 1, 9]
+print(f"Sum: sum({numbers}) = {sum(numbers)}")
+print(f"Min: min({numbers}) = {min(numbers)}")
+print(f"Max: max({numbers}) = {max(numbers)}")
+print(f"Length: len({numbers}) = {len(numbers)}")
+print(f"Average: {sum(numbers) / len(numbers)}")

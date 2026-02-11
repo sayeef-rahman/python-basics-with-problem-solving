@@ -2,18 +2,6 @@ import math
 
 a = 10
 b = 3
-
-# ===== NUMBER TYPE CONVERSION =====
-print("\n=== NUMBER TYPE CONVERSION ===")
-
-str_num = "42"
-float_str = "3.14"
-
-print(f"String to Int: int('42') = {int(str_num)}")
-print(f"String to Float: float('3.14') = {float(float_str)}")
-print(f"Int to Float: float(10) = {float(10)}")
-print(f"Float to Int: int(9.9) = {int(9.9)}")
-
 # ===== BUILT-IN FUNCTIONS =====
 print("\n=== BUILT-IN FUNCTIONS ===")
 
