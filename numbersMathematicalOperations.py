@@ -53,3 +53,10 @@ print(
     f"Round to 2 decimals: round({num}, 2) = {round(num, 2)}"
 )  # rounding to 2 decimal places
 print(f"Round to nearest int: round({num}) = {round(num)}")
+
+# Negative numbers examples
+negativeNumber = -15
+print(
+    f"Absolute value of {negativeNumber}: abs({negativeNumber}) = {abs(negativeNumber)}"
+)
+print(f"Negative of {negativeNumber}: -{negativeNumber} = {-negativeNumber}")
