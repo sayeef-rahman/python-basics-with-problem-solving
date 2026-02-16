@@ -47,3 +47,20 @@ def summarize(*args, **kwargs):
 
 
 print(summarize(1, 2, a=3, b=4))
+
+
+# Lambda example
+square = lambda x: x * x
+print("square(5):", square(5))
+
+
+# Nested function / closure example
+# Return a function that raises x to the given exp (closure captures exp)
+def power_factory(exp):
+    def power(x):
+        return x**exp
+
+    return power
+
+
+print("cube(3):", power_factory(3)(3))

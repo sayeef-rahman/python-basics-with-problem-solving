@@ -15,16 +15,6 @@ Concise examples of Python functions and scope (LEGB), covering:
 square = lambda x: x * x
 
 
-# Nested function / closure example
-def power_factory(exp):
-    """Return a function that raises x to the given exp (closure captures exp)."""
-
-    def power(x):
-        return x**exp
-
-    return power
-
-
 # nonlocal example
 def counter_factory():
     """Create a counter that keeps state via nonlocal variable."""
@@ -93,13 +83,6 @@ def count_up_to(n):
 
 
 if __name__ == "__main__":
-
-    # Lambda and square
-    print("square(5):", square(5))
-
-    # Closure
-    cube = power_factory(3)
-    print("cube(3):", cube(3))
 
     # nonlocal counter
     c = counter_factory()
