@@ -15,19 +15,6 @@ Concise examples of Python functions and scope (LEGB), covering:
 """
 
 
-# Basic function, annotation, docstring
-def greet(name: str) -> str:
-    """Return a greeting for name."""
-    return f"Hello, {name}!"
-
-
-# Positional, keyword, and default arguments
-def make_sentence(subject, verb="is", *modifiers, punctuation="."):
-    """Build a simple sentence."""
-    mid = " ".join(modifiers) if modifiers else ""
-    return f"{subject} {verb} {mid}".strip() + punctuation
-
-
 # Mutable default argument pitfall
 def append_bad(item, target=[]):
     """Demonstrates the mutable default pitfall."""
@@ -132,9 +119,6 @@ def count_up_to(n):
 
 
 if __name__ == "__main__":
-    # Basic uses
-    print(greet("Alice"))
-    print(make_sentence("Python", "is", "fun", "powerful", punctuation="!"))
 
     # Mutable default pitfall
     print("append_bad:", append_bad(1))
