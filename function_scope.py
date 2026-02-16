@@ -3,8 +3,8 @@ def greeting(name):
     return f"Hello, {name}"
 
 
-name_input = input("Enter you name: ")
-print(greeting(name_input))
+# name_input = input("Enter you name: ")
+# print(greeting(name_input))
 
 
 # Positional, keyword, and default arguments
@@ -64,3 +64,18 @@ def power_factory(exp):
 
 
 print("cube(3):", power_factory(3)(3))
+
+
+# nonlocal example
+def local_counter():
+    count = 0
+
+    def counter():
+        nonlocal count  # Reference the enclosing variable
+        count += 1
+
+    counter()
+    print(count)
+
+
+local_counter()
