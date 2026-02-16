@@ -38,3 +38,12 @@ def append_right(item, list=None):
 
 print(append_right(1))
 print(append_right(2))
+
+
+# *args and **kwargs usage. Summarize positional and keyword arguments.
+def summarize(*args, **kwargs):
+    details = ", ".join(f"{k}={v}" for k, v in kwargs.items())
+    return f"Args: {args} \nDetails: {details}"
+
+
+print(summarize(1, 2, a=3, b=4))

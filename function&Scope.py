@@ -11,13 +11,6 @@ Concise examples of Python functions and scope (LEGB), covering:
 - generator (brief)
 """
 
-
-# *args and **kwargs usage
-def summarize(*args, **kwargs):
-    """Show positional and keyword arguments."""
-    return {"args": args, "kwargs": kwargs}
-
-
 # Lambda example
 square = lambda x: x * x
 
@@ -100,9 +93,6 @@ def count_up_to(n):
 
 
 if __name__ == "__main__":
-
-    # *args and **kwargs
-    print("summarize:", summarize(1, 2, a=3, b=4))
 
     # Lambda and square
     print("square(5):", square(5))
