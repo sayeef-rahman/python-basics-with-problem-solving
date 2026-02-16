@@ -91,3 +91,15 @@ def global_counter():
 
 
 print("Global counter:", global_counter())
+
+
+# Higher-order Functions Example: functions as arguments and return values
+def greeting_maker(function_argument):
+    return function_argument
+
+
+def input_user_name(name):
+    return name
+
+
+print("Greeting maker:", greeting_maker(input_user_name(input("enter Name:"))))
