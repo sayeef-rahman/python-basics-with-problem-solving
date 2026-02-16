@@ -15,44 +15,6 @@ Concise examples of Python functions and scope (LEGB), covering:
 square = lambda x: x * x
 
 
-# nonlocal example
-def counter_factory():
-    """Create a counter that keeps state via nonlocal variable."""
-    count = 0
-
-    def increment():
-        nonlocal count
-        count += 1
-        return count
-
-    return increment
-
-
-# global example
-GLOBAL_TALLY = 0
-
-
-def use_global(delta=1):
-    """Modify a global variable (not recommended in general)."""
-    global GLOBAL_TALLY
-    GLOBAL_TALLY += delta
-    return GLOBAL_TALLY
-
-
-# LEGB demonstration
-X = "global X"
-
-
-def lego_demo():
-    X = "enclosing X"
-
-    def inner():
-        X = "local X"
-        return X  # returns local
-
-    return inner(), X, globals()["X"]
-
-
 # Recursive function example
 def factorial(n: int) -> int:
     """Compute factorial recursively."""
@@ -83,13 +45,6 @@ def count_up_to(n):
 
 
 if __name__ == "__main__":
-
-    # nonlocal counter
-    c = counter_factory()
-    print("counter:", c(), c(), c())
-
-    # global usage
-    print("use_global:", use_global(), use_global(5))
 
     # LEGB demo
     print("LEGB:", lego_demo())

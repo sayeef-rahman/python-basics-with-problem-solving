@@ -79,3 +79,15 @@ def local_counter():
 
 
 local_counter()
+
+
+GLOBAL_COUNTER = 0
+
+
+def global_counter():
+    global GLOBAL_COUNTER
+    GLOBAL_COUNTER += 2
+    return GLOBAL_COUNTER
+
+
+print("Global counter:", global_counter())
