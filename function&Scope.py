@@ -2,9 +2,6 @@
 function&Scope.py
 
 Concise examples of Python functions and scope (LEGB), covering:
-- basic functions, annotations, docstring
-- positional, keyword, default args
-- mutable default pitfall and fix
 - *args, **kwargs
 - lambda
 - nested functions and closures
@@ -13,22 +10,6 @@ Concise examples of Python functions and scope (LEGB), covering:
 - higher-order functions
 - generator (brief)
 """
-
-
-# Mutable default argument pitfall
-def append_bad(item, target=[]):
-    """Demonstrates the mutable default pitfall."""
-    target.append(item)
-    return target
-
-
-# Correct approach for mutable defaults
-def append_good(item, target=None):
-    """Use None as default and create new list when needed."""
-    if target is None:
-        target = []
-    target.append(item)
-    return target
 
 
 # *args and **kwargs usage
@@ -119,12 +100,6 @@ def count_up_to(n):
 
 
 if __name__ == "__main__":
-
-    # Mutable default pitfall
-    print("append_bad:", append_bad(1))
-    print("append_bad again:", append_bad(2))  # shows shared list
-    print("append_good:", append_good(1))
-    print("append_good again:", append_good(2))
 
     # *args and **kwargs
     print("summarize:", summarize(1, 2, a=3, b=4))

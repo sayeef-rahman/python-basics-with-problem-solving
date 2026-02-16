@@ -16,3 +16,25 @@ def make_sentence(subject, verb="is", *modifiers, punctuation="."):
 
 
 print(make_sentence("Python", "is", "fun", "powerful", punctuation="!"))
+
+
+# Mutable default argument in wrong way but works
+def append_wrong(item, list=[]):
+    list.append(item)
+    return list
+
+
+print(append_wrong(1))  # [1]
+print(append_wrong(2))  # [1, 2] - unexpected
+
+
+# mutable default argument in correct way
+def append_right(item, list=None):
+    if list is None:
+        list = []
+    list.append(item)
+    return list
+
+
+print(append_right(1))
+print(append_right(2))
