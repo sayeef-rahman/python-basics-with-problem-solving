@@ -23,6 +23,7 @@ print("Ruby" in programming_languages)  # Output: False
 
 
 # unpacking tuples
+# python, *rest_languages = programming_languages # another method to unpack tuples
 a, b, c = programming_languages
 print(a)  # Output: Python
 print(b)  # Output: Java
@@ -33,3 +34,8 @@ print(c)  # Output: C++
 nested_tuple = (1, (2, 3), (4, 5, 6))
 print(nested_tuple)  # Output: (1, (2, 3), (4, 5, 6))
 print(nested_tuple[0])  # Output: 1
+
+# Tuples Slice
+print(programming_languages[0:2])  # Output: ('Python', 'Java')
+print(programming_languages[:2])  # Output: ('Python', 'Java')
+print(programming_languages[1:])  # Output: ('Java', 'C++')
