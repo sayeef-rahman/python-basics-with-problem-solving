@@ -7,6 +7,7 @@ fruits_list = ["banana", "guava", "mango", "papaya"]
 print(fruits_list)
 print(fruits_list[0])  # Accessing first element
 print(fruits_list[-1])  # Accessing last element
+print(f"fruits list length: {len(fruits_list)}")
 
 # string to list
 letters_in_banana = list(fruits_list[0])
