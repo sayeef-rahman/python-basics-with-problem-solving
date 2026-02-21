@@ -17,3 +17,22 @@ print(f"letters_in_banana: {letters_in_banana}")
 more_fruits = ["orange", "kiwi"]
 all_fruits = fruits_list + more_fruits
 print(f"All fruits: {all_fruits}")
+
+# update fruit list
+fruits_list.append("orange")  # inserting one item at the end of the list
+fruits_list.extend(["grape", "kiwi"])  # inserting multiple items at the end of the list
+fruits_list.insert(1, "blueberry")  # inserting an item at a specific index
+print(f"Updated fruits list: {fruits_list}")
+# fruits_list[40] = "JavaScript"  # IndexError: list assignment index out of range
+
+# delete an item from the list
+fruits_list.remove("blueberry")  # removing an item by value
+print(f"Updated fruits list after removing blueberry: {fruits_list}")
+
+# delete an item by index
+del fruits_list[0]  # deleting the first item (banana)
+print(f"Updated fruits list after deleting first item: {fruits_list}")
+
+# clear all items from the list
+fruits_list.clear()
+print(f"Fruits list after clearing: {fruits_list}")
