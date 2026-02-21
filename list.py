@@ -3,6 +3,11 @@ print(empty_list)
 print(type(empty_list))
 print(len(empty_list))
 
+# mixed list
+mixed_list = [1, "hello", 3.14, True, None]
+print(mixed_list)
+print(type(mixed_list))
+
 fruits_list = ["banana", "guava", "mango", "papaya"]
 print(fruits_list)
 print(fruits_list[0])  # Accessing first element
