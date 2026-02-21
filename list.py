@@ -33,6 +33,10 @@ print(f"Updated fruits list after removing blueberry: {fruits_list}")
 del fruits_list[0]  # deleting the first item (banana)
 print(f"Updated fruits list after deleting first item: {fruits_list}")
 
+# check if an element is inside the list
+print("mango" in fruits_list)  # True
+print("orange" in fruits_list)  # True
+
 # clear all items from the list
 fruits_list.clear()
 print(f"Fruits list after clearing: {fruits_list}")
