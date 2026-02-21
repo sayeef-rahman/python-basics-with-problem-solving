@@ -13,6 +13,12 @@ print(mixed_tuple)  # Output: (1, 'hello', 3.14, True)
 print(
     f"Length of programming_languages tuple: {len(programming_languages)}"
 )  # Output: 3
+print(
+    f"Count of 'Python' in programming_languages: {programming_languages.count('Python')}"
+)  # Output: 1
+print(
+    f"Index of 'Java' in programming_languages: {programming_languages.index('Java')}"
+)  # Output: 1
 
 developer = "Jessica"
 tuple(developer)  # ('J', 'e', 's', 's', 'i', 'c', 'a')
