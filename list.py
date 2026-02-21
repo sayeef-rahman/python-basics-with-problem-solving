@@ -14,6 +14,28 @@ print(fruits_list[0])  # Accessing first element
 print(fruits_list[-1])  # Accessing last element
 print(f"fruits list length: {len(fruits_list)}")
 
+# slicing from index 1 to 4 (exclusive)
+slice1 = fruits_list[1:4]
+print(f"Slice from index 1 to 4: {slice1}")
+
+# slicing from beginning to index 3 (exclusive)
+slice2 = fruits_list[:3]
+print(f"Slice from beginning to index 3: {slice2}")
+
+# slicing from index 2 to end
+slice3 = fruits_list[2:]
+print(f"Slice from index 2 to end: {slice3}")
+
+# slicing with step
+slice4 = fruits_list[::2]  # every second element
+print(f"Every second element: {slice4}")
+
+# negative indexing
+last_fruit = fruits_list[-1]
+second_last_fruit = fruits_list[-2]
+print(f"Last fruit: {last_fruit}")
+print(f"Second last fruit: {second_last_fruit}")
+
 # string to list
 letters_in_banana = list(fruits_list[0])
 print(f"letters_in_banana: {letters_in_banana}")
@@ -33,6 +55,10 @@ print(f"Updated fruits list: {fruits_list}")
 # delete an item from the list
 fruits_list.remove("blueberry")  # removing an item by value
 print(f"Updated fruits list after removing blueberry: {fruits_list}")
+
+# popping an item from the list
+popped_fruit = fruits_list.pop()  # removes and returns the last item
+print(f"Popped fruit: {popped_fruit}")
 
 # delete an item by index
 del fruits_list[0]  # deleting the first item (banana)
