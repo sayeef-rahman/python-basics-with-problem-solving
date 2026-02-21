@@ -39,3 +39,7 @@ print(nested_tuple[0])  # Output: 1
 print(programming_languages[0:2])  # Output: ('Python', 'Java')
 print(programming_languages[:2])  # Output: ('Python', 'Java')
 print(programming_languages[1:])  # Output: ('Java', 'C++')
+
+# delete tuple
+# developer = ("Jane Doe", 23, "Python Developer")
+# del developer[1] # This will raise a TypeError because tuples are immutable
