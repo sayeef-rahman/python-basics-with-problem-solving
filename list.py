@@ -81,4 +81,22 @@ print(f"Accessing second element of first nested list: {nested_list[0][1]}")
 # unpacking a list
 developers = ["Alice", "Bob", "Charlie"]
 dev1, dev2, dev3 = developers
+# dev1 , *restDevs = developers # will unpack first element to dev1 and rest of the elements to restDevs list
 print(f"Developer 1: {dev1}, Developer 2: {dev2}, Developer 3: {dev3}")
+
+number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(f"even numbers: {number_list[1::2]}")  # slicing with step to get even numbers
+print(f"odd numbers: {number_list[::2]}")  # slicing with step to get odd numbers
+print(
+    f"reverse of number list: {number_list[::-1]}"
+)  # slicing with step to reverse the list
+print(
+    f"sorted number list: {sorted(number_list, reverse=True)}"
+)  # sorted function to sort the list in reverse order
+print(
+    f"Reserved number list: {list(reversed(number_list))}"
+)  # reversed function to reverse the list
+print(
+    f"Index of 5 in number list: {number_list.index(5)}"
+)  # index method to find index of an element
+print(f"Count of 2 in number list: {number_list.count(2)}")
