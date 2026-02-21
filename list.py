@@ -40,3 +40,14 @@ print("orange" in fruits_list)  # True
 # clear all items from the list
 fruits_list.clear()
 print(f"Fruits list after clearing: {fruits_list}")
+
+# nested list
+nested_list = [[1, 2], [3, 4], [5, 6]]
+print(f"Nested list: {nested_list}")
+print(f"Accessing first nested list: {nested_list[0]}")
+print(f"Accessing second element of first nested list: {nested_list[0][1]}")
+
+# unpacking a list
+developers = ["Alice", "Bob", "Charlie"]
+dev1, dev2, dev3 = developers
+print(f"Developer 1: {dev1}, Developer 2: {dev2}, Developer 3: {dev3}")
