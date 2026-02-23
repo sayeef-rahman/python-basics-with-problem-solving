@@ -60,3 +60,9 @@ for i in range(5):
     print(i)
 else:
     print("This will not be printed because of break")
+
+
+# List comprehension (compact for loop)
+print("List comprehension:")
+squares = [x**2 for x in range(10)]
+print(squares)
