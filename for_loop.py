@@ -25,6 +25,11 @@ person = {"name": "John", "age": 30, "city": "NYC"}
 for key in person:
     print(f"{key}: {person[key]}")
 
+# For loop with items() for dictionaries
+print("For loop with items():")
+for key, value in person.items():
+    print(f"{key}: {value}")
+
 # nested for loops
 print("Nested for loops:")
 categories = ["Fruit", "Vegetable"]

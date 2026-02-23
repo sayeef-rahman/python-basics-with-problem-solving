@@ -1,15 +1,5 @@
 # For loop iterating over a list
 fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit)
-
-# For loop with enumerate (index and value)
-for index, fruit in enumerate(fruits):
-    print(f"{index}: {fruit}")
-
-# For loop iterating over a string
-for char in "hello":
-    print(char)
 
 # For loop with dictionary
 person = {"name": "John", "age": 30, "city": "NYC"}
