@@ -1,11 +1,3 @@
-# Basic for loop with range
-for i in range(5):
-    print(i)
-
-# For loop with start, stop, step
-for i in range(1, 10, 2):
-    print(i)
-
 # For loop iterating over a list
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:

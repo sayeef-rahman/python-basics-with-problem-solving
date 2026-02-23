@@ -32,3 +32,8 @@ foods = ["Apple", "Carrot", "Banana"]
 for category in categories:
     for food in foods:
         print(f"{category}: {food}")
+
+# For loop with enumerate (index and value)
+print("For loop with enumerate:")
+for index, fruit in enumerate(fruits):
+    print(f"{index}: {fruit}")
