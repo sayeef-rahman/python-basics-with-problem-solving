@@ -42,3 +42,11 @@ for category in categories:
 print("For loop with enumerate:")
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
+
+# For loop with else
+print("For loop with else:")
+for i in range(5):
+    print(i)
+else:
+    print("Loop completed without break")
