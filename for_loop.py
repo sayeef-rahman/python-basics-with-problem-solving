@@ -13,3 +13,14 @@ print("For loop iterating over a list:")
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
+
+# using strings in for loop
+print("For loop iterating over a string:")
+for char in "hello":
+    print(char)
+
+# using dictionaries in for loop
+print("For loop with dictionary:")
+person = {"name": "John", "age": 30, "city": "NYC"}
+for key in person:
+    print(f"{key}: {person[key]}")
