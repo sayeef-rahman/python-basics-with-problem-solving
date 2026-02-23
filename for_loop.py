@@ -24,3 +24,11 @@ print("For loop with dictionary:")
 person = {"name": "John", "age": 30, "city": "NYC"}
 for key in person:
     print(f"{key}: {person[key]}")
+
+# nested for loops
+print("Nested for loops:")
+categories = ["Fruit", "Vegetable"]
+foods = ["Apple", "Carrot", "Banana"]
+for category in categories:
+    for food in foods:
+        print(f"{category}: {food}")
