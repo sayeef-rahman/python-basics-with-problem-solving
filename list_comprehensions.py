@@ -23,3 +23,9 @@ print(modified_squares)
 # If-Else Inside Comprehension
 even_odd_squares = [n * n if n % 2 == 0 else n * n + 1 for n in numbers]
 print(even_odd_squares)
+
+
+# Nested List Comprehension (2D List)
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flattened = [num for row in matrix for num in row]
+print(flattened)
