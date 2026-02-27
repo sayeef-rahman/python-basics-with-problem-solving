@@ -30,6 +30,19 @@ else:
     print("You are not eligible to vote.")
 
 
+# match case statement - Python 3.10+
+status = "active"
+match status:
+    case "active":
+        print("Status is active")
+    case "inactive":
+        print("Status is inactive")
+    case "pending":
+        print("Status is pending")
+    case _:
+        print("Unknown status")
+
+
 # Here are a few falsy values:
 # None
 # False
