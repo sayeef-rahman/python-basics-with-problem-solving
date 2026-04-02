@@ -85,3 +85,6 @@ x, y = 5, 10
 print("Before swapping x,y:", x, y)
 x, y = y, x  # Swapping values
 print("After swapping x,y:", x, y)
+
+
+print("All variables examples executed successfully.")
